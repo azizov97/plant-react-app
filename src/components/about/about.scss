@@ -1,0 +1,65 @@
+.about {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5rem;
+  margin-top: 5rem;
+
+  .about-left {
+    flex: 1 1 50rem;
+    margin-top: 6rem;
+    margin-left: 50px;
+
+    img {
+      box-shadow: -60px -40px 0 0 #066f14;
+    }
+  }
+  .about-right {
+    flex: 1 1 40rem;
+
+    h4 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 1.5rem;
+      line-height: 4rem;
+      color: #066f14;
+    }
+
+    h2 {
+      font-style: normal;
+      font-size: 3rem;
+      line-height: 3.5rem;
+      color: #1a1a1a;
+    }
+
+    p {
+      padding: 2rem 0;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.5rem;
+      line-height: 2rem;
+      color: #4a4a4a;
+
+      &:nth-child(4) {
+        font-weight: 700;
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+        color: #4a4a4a;
+      }
+    }
+    .btn-about {
+      Button {
+        margin-top: 2rem;
+        padding: 1.7rem 5rem;
+        background: #066f14;
+        font-size: 1.5rem;
+        color: #fff;
+
+        &:hover {
+          background: #fff;
+          color: #066f14;
+        }
+      }
+    }
+  }
+}

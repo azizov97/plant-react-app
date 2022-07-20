@@ -1,0 +1,29 @@
+.services {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 3rem auto;
+
+  .service {
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+  }
+
+  .service-title {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    h2 {
+      font-size: 3.5rem;
+      color: #001b04;
+    }
+
+    span {
+      font-size: 1.7rem;
+      text-align: center;
+      color: #000;
+    }
+  }
+}

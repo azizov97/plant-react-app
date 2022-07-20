@@ -1,0 +1,30 @@
+.instagram {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  .instagram-title {
+    width: 60%;
+    margin: 0 auto;
+    h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      padding: 2rem 0;
+    }
+
+    p {
+      font-size: 1.6rem;
+      line-height: 2.5rem;
+      font-weight: 600;
+      color: #4a4a4a;
+    }
+  }
+
+  .instagram-images {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,0 +1,50 @@
+.product {
+  text-align: center;
+  .product-title {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      font-size: 4rem;
+    }
+  }
+  .product-items {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    li {
+      list-style: none;
+      a {
+        text-decoration: none;
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #4a4a4a;
+        transition: 0.2s linear;
+        &:hover {
+          color: #066f14;
+        }
+      }
+    }
+  }
+
+  .btn-product {
+    Button {
+      margin-top: 2rem;
+      padding: 1.7rem 5rem;
+      background: #066f14;
+      font-size: 1.7rem;
+      color: #fff;
+
+      &:hover {
+        background: #fff;
+        color: #066f14;
+      }
+    }
+  }
+}

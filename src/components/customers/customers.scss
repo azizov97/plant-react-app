@@ -1,0 +1,57 @@
+.customers {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+
+  .customer-left {
+    width: 45%;
+    h1 {
+      font-size: 3.5rem;
+    }
+
+    p {
+      font-size: 1.5rem;
+      line-height: 2rem;
+      color: #4a4a4a;
+      padding: 2rem 0;
+    }
+
+    .islam-container {
+      transform: translate(80px, 10px);
+      padding: 2rem;
+      background-color: #066f14;
+
+      .islam-title {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap: 2rem;
+
+        .islam-info {
+          color: #fff;
+          h2 {
+            font-size: 1.7rem;
+          }
+
+          p {
+            font-size: 1.4rem;
+            color: #d9d9d9;
+            padding: 0.6rem 0;
+          }
+        }
+      }
+
+      p {
+        color: #ececec;
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  .customer-right {
+    width: 50%;
+    img {
+      width: 100%;
+    }
+  }
+}
